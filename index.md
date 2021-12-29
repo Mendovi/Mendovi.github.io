@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<script>
+<script type=javascript>
 function car_down () {x = 0;
 x = document.getElementById("moto").offsetTop;
 xn = x + 50;
