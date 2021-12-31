@@ -29,7 +29,7 @@ document.getElementById("moto").style.left = xn+"px"
 </script>
 </head>
   
-  
+ 
 <body>
 <img src="https://catwar.su/cw3/composited/527c56c2b4bf9ad2.png" id="moto" style="position:absolute; top:100px; left:0px">
 <input type="button" value="↓" onclick="car_down()">
