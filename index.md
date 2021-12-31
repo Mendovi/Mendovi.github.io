@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<script type=javascript>
+/*<script type=javascript>
 function car_down () {x = 0;
 x = document.getElementById("moto").offsetTop;
 xn = x + 50;
@@ -26,7 +26,7 @@ x = document.getElementById("moto").offsetLeft;
 xn = x + 50;
 document.getElementById("moto").style.left = xn+"px"
 }
-</script>
+</script>*\
 </head>
   
  
