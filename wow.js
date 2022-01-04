@@ -22,6 +22,17 @@ xn = x + 50;
 document.getElementById("moto").style.left = xn+"px"
 }
 
+var imageMove = {
+	dc = xn;
+}
+function ifImageMove () {
+	if(dx != 0)
+		var jsonData
+		jsonData = JSON.stringify(imageMove);
+		console.log(jsonData);
+
+}
+
 
 async function subscribe() {
   let response = await fetch("/subscribe");
