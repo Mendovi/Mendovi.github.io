@@ -22,7 +22,24 @@ xn = x + 50;
 document.getElementById("moto").style.left = xn+"px"
 }
 
-var imageMove = {
+
+let socket = new WebSocket("wss://mendovi.github.io/");
+
+socket.onopen = function(e) {
+  alert("[open] Соединение установлено");
+  alert("Отправляем данные на сервер");
+  socket.send(xn);
+};
+
+/*function ifImageMove () {
+	if(dx != 0)
+		var jsonData
+		jsonData = JSON.stringify(imageMove);
+		console.log(jsonData);
+
+}
+
+/*var imageMove = {
 	dc = xn;
 }
 function ifImageMove () {
@@ -31,7 +48,7 @@ function ifImageMove () {
 		jsonData = JSON.stringify(imageMove);
 		console.log(jsonData);
 
-}
+}*/
 
 
 async function subscribe() {
