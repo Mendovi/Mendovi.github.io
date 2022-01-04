@@ -23,7 +23,7 @@ document.getElementById("moto").style.left = xn+"px"
 }
 
 
-let socket = new WebSocket("wss://mendovi.github.io/");
+/*let socket = new WebSocket("wss://mendovi.github.io/");
 
 socket.onopen = function(e) {
   alert("[open] Соединение установлено");
@@ -31,7 +31,7 @@ socket.onopen = function(e) {
   socket.send(x);
 };
 
-/*function ifImageMove () {
+function ifImageMove () {
 	if(dx != 0)
 		var jsonData
 		jsonData = JSON.stringify(imageMove);
