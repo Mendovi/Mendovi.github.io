@@ -27,12 +27,10 @@ let socket = new WebSocket("wss://mendovi.github.io/");
 
 socket.onopen = function(e) {
   alert("Отправляем данные на сервер");
+  socket.send(position);
 };
+		
 
-function getCoordinates () {
-	if(xn != 0)
-	socket.send(xn);	
-}
 
 
 /*let socket = new WebSocket("wss://mendovi.github.io/");
