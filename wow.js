@@ -33,11 +33,5 @@ socket.onopen = function(e) {
 
 
 
-/*let socket = new WebSocket("wss://mendovi.github.io/");
 
-socket.onopen = function(e) {
-  alert("[open] Соединение установлено");
-  alert("Отправляем данные на сервер");
-  socket.send(x);
-};
 
