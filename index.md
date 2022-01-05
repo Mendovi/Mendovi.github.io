@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <script src="wow.js"></script>
+<link rel="stylesheet" href="style.css">
 </head>
   
  
